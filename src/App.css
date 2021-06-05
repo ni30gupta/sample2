@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerBar {
+  background-color: green;
+  padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.Card-effect {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.Card-effect {
+  transition: transform 0.2s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.Card-effect:hover {
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.29);
+  transform: scale(1.01);
+}
+
+#responsive-navbar-nav {
+  background-color: green;
+}

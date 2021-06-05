@@ -1,0 +1,19 @@
+@media (max-width: 375px) {
+  .h2,
+  h2 {
+    font-size: 1.25rem !important;
+    text-align: left;
+  }
+}
+
+@media (max-width: 375px) {
+  #root
+    > div
+    > header
+    > div:nth-child(1)
+    > div.container-fluid
+    > div.row.mt-5
+    > div.sidebar.col-xl-2.pl-5 {
+    display: none;
+  }
+}

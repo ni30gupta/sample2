@@ -1,0 +1,15 @@
+/* @media (min-width: 1300) {
+  #responsive-navbar-nav > div:nth-child(2) > a:nth-child(1) > form > input > {
+    display: inline-block;
+    width: 450px;
+    vertical-align: middle;
+  }
+} */
+#responsive-navbar-nav > div:nth-child(2) > a:nth-child(1) > form > input {
+    width: 420px;
+}
+
+#root > div > header > div.header > nav {
+  height: 3.5rem;
+}
+

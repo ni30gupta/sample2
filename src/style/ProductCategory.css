@@ -1,0 +1,46 @@
+/*.category {
+    background-color: black;
+    height: 100%;
+   
+}
+
+.upper {
+    background-color: greenyellow;
+    height: 16vh;
+}
+
+.middle {
+    background-color: red;
+     display: flex;
+     justify-content: space-between;
+     height: 100vh;
+}
+
+.sidebar {
+    background-color: cyan;
+    width: 30%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+
+.products {
+    background-color: blue;
+    width: 70%;
+    
+}
+
+.lower {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 15vh;
+    align-items: center;
+}
+*/
+

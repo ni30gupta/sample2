@@ -1,0 +1,59 @@
+.nav-link,
+#root > div > header > div.bg-warning > nav > span > a,
+#root > div > header > div > div:nth-child(1) > nav > span > a,
+.nav-link > a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.custom-navbar {
+  height: 3.5rem;
+}
+
+#responsive-navbar-nav > div.mr-auto.navbar-nav > div > div > a > a > a {
+  color: black;
+}
+a.dropdown-item > a :hover {
+  text-decoration: none;
+}
+
+.media-below {
+  /* width: 30%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media query  */
+
+@media (max-width: 320px) {
+  .navbar-div {
+    padding-bottom: 160px !important;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .media-below {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */
+
+/* @media (max-width: 320px) {
+  #root
+    > div
+    > header
+    > div:nth-child(1)
+    > div:nth-child(1)
+    > nav
+    > div.media-below
+    > div:nth-child(1)
+    > form
+    > input {
+    width: 18rem !important;
+  }
+} */
